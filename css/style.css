@@ -1,3 +1,5 @@
+/* include local fonts */
+
 @font-face {
    font-family: GistUprightExtraboldDemo;
    src: url(../fonts/GistUprightExtraboldDemo.otf);
@@ -10,6 +12,7 @@
    font-family: Nobel;
    src: url(../fonts/ufonts.com_nobel-light.ttf);
 }
+
 .clearfix:after {
    content: ".";
    display: block;
@@ -19,6 +22,7 @@
 }
 
 /* HEADER */ 
+
 header {
    height: 560px;
    width: 100%;

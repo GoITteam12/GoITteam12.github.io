@@ -1,21 +1,19 @@
 $(document).ready(function() {
  
-  $("#owl-demo").owlCarousel({
+   
+   // Owl Carousel scrypt
+   
+   $("#owl-demo").owlCarousel({
  
       navigation : true, // Show next and prev buttons
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem:true
  
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
- 
-  });
+   });
    
+   
+   // Smooth scrolling page
    
    try {
           $.browserSelector();
@@ -26,6 +24,9 @@ $(document).ready(function() {
 
      };
    
+   
+   // Smooth scrolling to an anchor
+   
    $("#menu").on("click", "a", function (event) {
           event.preventDefault();
           var id = $(this).attr('href'),
@@ -34,6 +35,9 @@ $(document).ready(function() {
                scrollTop: top
           }, 1000);
      });
+   
+   
+   // Scroll to the top
    
    $(function () {
           $.fn.scrollToTop = function () {
