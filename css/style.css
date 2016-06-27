@@ -29,9 +29,11 @@ header {
    margin: 0 auto;
 }
 .navbar {
+   position: fixed;
    height: 49px;
    width: 325px;
    padding-top: 25px;
+   z-index: 10;
 }
 header li {
    display: inline-block;
@@ -52,7 +54,8 @@ a {
 .header__h1 {
    width: 635px;
    height: 136px;
-   margin: 110px auto 30px auto;
+   margin: 0 auto 30px auto;
+   padding-top: 110px;
 }
 .header__h1__word {
    display: inline-block;
