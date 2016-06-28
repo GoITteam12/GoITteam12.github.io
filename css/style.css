@@ -80,6 +80,7 @@ a {
    margin: 0 auto;
    border-top: 1px solid white;
    border-bottom: 1px solid white;
+   -webkit-box-sizing: border-box;
    box-sizing: border-box;
 }
 .header__h2 {
@@ -150,6 +151,65 @@ a {
    letter-spacing: -0.5px;
    color: #ffffff;
 }
+.we-made__h2 {
+   height: 54px;
+   width: 316px;
+   margin: 0 auto;
+   background: url(../img/Web---studio.png); 
+}
+.we-made__row {
+   width: 1184px;
+   height: 411px;
+   margin: 0 auto;
+}
+.we-made__img-block1 {
+   display: inline-block;
+   position: relative;
+   height: 411px;
+   width: 572px;
+   float: left;
+   margin-top: 57px;
+   background-color: #a4812d;
+   border-radius: 15px;
+   text-align: center;
+}
+.block__img {
+   position: absolute;
+   margin: auto;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+.we-made__img-block2 {
+   display: inline-block;
+   height: 411px;
+   width: 572px;
+   float: left;
+   margin-top: 57px;
+   margin-left: 40px;
+   background: url(../img/dis2.png); 
+}
+.we-made__img-block3 {
+   display: inline-block;
+   height: 411px;
+   width: 572px;
+   float: left;
+   margin-top: 41px;
+   background: url(../img/disign.png); 
+}
+.we-made__img-block4 {
+   display: inline-block;
+   position: relative;
+   height: 411px;
+   width: 572px;
+   float: left;
+   margin-top: 41px;
+   margin-left: 40px;
+   background-color: #a4812d;
+   border-radius: 15px;
+   text-align: center;
+}
 
 /* WE TEAM */
 
@@ -187,7 +247,7 @@ a {
    position: absolute;
    height: 194px;
    width: 398px;
-   background: url(../img/3_person.png); 
+   background: url(../img/2_person.png);
    top: 385px;
    left: -50px;
 }
@@ -195,7 +255,7 @@ a {
    height: 194px;
    width: 399px;   
    position: absolute;
-   background: url(../img/2_person.png);
+   background: url(../img/3_person.png); 
    top: 150px;
    left: 280px;
 }
@@ -203,7 +263,7 @@ a {
    position: absolute;
    height: 194px;
    width: 399px;
-   background: url(../img/4_person.png);
+   background: url(../img/4_person.png); 
    top: -70px;
    left: 600px;
 }
@@ -211,7 +271,7 @@ a {
    position: absolute;
    height: 194px;
    width: 399px;
-   background: url(../img/5_person.png); 
+   background: url(../img/5_person.png);  
    top: 150px;
    left: 885px;
 }
@@ -251,7 +311,7 @@ a {
    position: absolute;
    height: 194px;
    width: 398px;
-   background: url(../img/10_person.png);
+   background: url(../img/10_person.png); 
    left: -50px;
    top: 815px;
 }
