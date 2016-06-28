@@ -10,6 +10,19 @@
    font-family: Nobel;
    src: url(../fonts/ufonts.com_nobel-light.ttf);
 }
+@font-face {
+    font-family: Corinthia;
+    src: url(../fonts/Corinthia.ttf);
+}
+@font-face {
+    font-family: Bookman Old Style;
+    src: url(../fonts/BOOKOS.TTF);
+}
+@font-face {
+    font-family: Bookman Old Style I;
+    src: url(../fonts/BOOKOSI.TTF);
+}
+
 .clearfix:after {
    content: ".";
    display: block;
@@ -99,7 +112,7 @@ a {
 /* CAROUSEL */
 
 .who-we-are {
-   height: 1151px;
+   height: 700px;
    width: 100%;
    margin-top: 20px;
    background-color: #05ffa0;
@@ -113,11 +126,59 @@ a {
    color: #ffffff;
    margin-bottom: 34px;
 }
-#owl-demo .item img{
+#owl-demo .item {
    display: block;
    width: 100%;
-   height: auto;
+   height: 100%;
+   overflow: hidden;
 }
+
+.owl_col1 {
+   float: left;
+   width: 800px;
+   position: relative;
+}
+
+.owl_col2 {
+    margin-left: 820px;
+}
+
+.owl_col2 img {    
+-webkit-box-shadow: 5px 0px 10px 5px rgba(0,0,0,0.31);
+-moz-box-shadow: 5px 0px 10px 5px rgba(0,0,0,0.31);
+box-shadow: 5px 0px 10px 5px rgba(0,0,0,0.31);
+}
+
+.owl_vignette {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.owl_h1 {
+    position: absolute;
+    left: 150px;
+    top: 48px;
+    z-index: 10;
+    color: black;
+    font-size: 50pt;
+    font-family: Corinthia;
+}
+
+.owl_h2 {
+    font-family: Bookman Old Style I;
+    font-size: 32pt;
+    color: #e7b04e;
+    margin: 20px 0 0 10px;
+}
+
+.owl_text {
+    font-family: Bookman Old Style;
+    font-size: 18pt;
+    margin: 10px 0 0 50px;
+}
+
 .owl-buttons {
    display: none;
 }
