@@ -25,7 +25,6 @@
 
 header {
    height: 560px;
-   width: 100%;
    background-color: #74d4ec;
 }
 .container {
@@ -35,7 +34,7 @@ header {
 .navbar {
    position: fixed;
    height: 49px;
-   width: 325px;
+   width: 345px;
    padding-top: 25px;
    z-index: 10;
 }
@@ -93,7 +92,6 @@ a {
 /* PICTURE WEB */ 
 
 .picture_web {
-   width: 100%;
    height: 455px;
    background: url(../img/picture_web.png); 
    margin-top: 20px;
@@ -105,7 +103,6 @@ a {
 
 .who-we-are {
    height: 1151px;
-   width: 100%;
    margin-top: 20px;
    background-color: #05ffa0;
 }
@@ -139,7 +136,6 @@ a {
 
 .we_made{
    height: 1151px;
-   width: 100%;
    background-color: #e3b33e;
    margin-top: 20px;
 }
@@ -215,7 +211,6 @@ a {
 
 .we_team {
    height: 1201px;
-   width: 100%;
    margin-top: 20px;
    background-color: #74d4ec;
 }
@@ -319,7 +314,6 @@ a {
 /* FOOTER */ 
 
 footer {
-   width: 100%;
    height: 63px;
    background-color: #cba675;
    margin-top: 20px;
