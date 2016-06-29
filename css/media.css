@@ -48,6 +48,9 @@
    .team-tree__container {
       height: 611px;
    }
+   .row__block__height {
+      height: 251px
+   }
 }
 
 /* Medium Devices, Desktops */
@@ -59,6 +62,9 @@
    .team-tree__container {
       height: 752px;
    }
+   .row__block__height {
+      height: 331px
+   }
 }
 
 /* Large Devices, Wide Screens */
@@ -69,5 +75,8 @@
    }
    .team-tree__container {
       height: 921px;
+   }
+   .row__block__height {
+      height: 421px
    }
 }

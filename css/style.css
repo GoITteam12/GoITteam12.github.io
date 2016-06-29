@@ -155,14 +155,13 @@ a {
 }
 .row {
    width: 90%;
-   height: 47%;
-   margin: 1% auto 0 auto;   
+   margin: 3% auto 0 auto;   
 }
+
 .row__block1 {
    display: inline-block;
    width: 48%;
    background-color: #a4812d;
-   height: 411px;
    border-radius: 10px;
    background: url(../img/mac.png), url(../img/brown.png);
    background-size: contain;
@@ -173,7 +172,6 @@ a {
    display: inline-block;
    width: 48%;
    background-color: #a4812d;
-   height: 411px;
    margin-left: 3%;
    border-radius: 10px;
    background: url(../img/dis2.png), url(../img/brown.png);
@@ -185,7 +183,6 @@ a {
    display: inline-block;
    width: 48%;
    background-color: #a4812d;
-   height: 411px;
    border-radius: 10px;
    background: url(../img/disign.png), url(../img/brown.png);
    background-size: contain;
@@ -196,7 +193,6 @@ a {
    display: inline-block;
    width: 48%;
    background-color: #a4812d;
-   height: 411px;
    margin-left: 3%;
    border-radius: 10px;
    background: url(../img/7d0e8f8ebc74c8799fe04e8867dacf60.png), url(../img/brown.png);
